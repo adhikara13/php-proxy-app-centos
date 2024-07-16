@@ -108,6 +108,7 @@
 </head>
 <body>
 
+<<<<<<< HEAD
 <header>
     <div class="container">
         <h1>ProxyMan</h1>
@@ -124,6 +125,10 @@
 <div class="content">
     <h2>Free Web Proxy</h2>
     <p>Browse any website fast & anonymously.</p>
+=======
+<div id="container">
+    <h1 style="color: #007bff;">Free Web Proxy by ProxyMan</h1>
+>>>>>>> refs/remotes/origin/master
 
     <?php if(isset($error_msg)){ ?>
     <div id="error">
@@ -131,6 +136,7 @@
     </div>
     <?php } ?>
 
+<<<<<<< HEAD
     <form action="index.php" method="post">
         <input name="url" type="text" autocomplete="off" placeholder="http://">
         <input type="submit" value="Browse">
@@ -145,5 +151,23 @@
     document.getElementsByName("url")[0].focus();
 </script>
 
+=======
+    <div id="frm">
+        <form action="index.php" method="post" style="margin-bottom:0;">
+            <input name="url" type="text" autocomplete="off" placeholder="http://">
+            <input type="submit" value="Go">
+        </form>
+
+        <script type="text/javascript">
+            document.getElementsByName("url")[0].focus();
+        </script>
+    </div>
+</div>
+
+<div id="footer">
+    Powered by <a href="//komodomain/" target="_blank">ProxyMan</a> <?php echo $version; ?>
+</div>
+
+>>>>>>> refs/remotes/origin/master
 </body>
 </html>
