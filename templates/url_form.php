@@ -10,10 +10,7 @@
     <style>
         body {
             margin: 0;
-<<<<<<< HEAD
             padding-top: 60px; /* Add padding to ensure content is not covered by the top bar */
-=======
->>>>>>> refs/remotes/origin/master
             font-family: Arial, Helvetica, sans-serif;
             background-color: #f4f4f4;
             color: #333;
@@ -123,7 +120,6 @@
                 }
             };
         }
-<<<<<<< HEAD
 
         function toggleTopForm() {
             var topForm = document.getElementById("top_form");
@@ -146,22 +142,14 @@
             var toggleButton = document.getElementById("toggle_button");
             toggleButton.style.top = "110px";
         });
-=======
->>>>>>> refs/remotes/origin/master
     </script>
 </head>
 <body>
 
 <div id="top_form">
-<<<<<<< HEAD
     <form method="post" action="index.php" target="_top">
         <input type="button" value="Home" onclick="window.location.href='index.php'">
         <input type="text" name="url" value="<?php echo $url; ?>" autocomplete="off" placeholder="Enter URL here...">
-=======
-    <form method="post" action="index.php" target="_top" style="margin:0; padding:0; display: flex; align-items: center;">
-        <input type="button" value="Home" onclick="window.location.href='index.php'">
-        <input type="text" name="url" value="<?php echo $url; ?>" autocomplete="off">
->>>>>>> refs/remotes/origin/master
         <input type="hidden" name="form" value="1">
         <input type="submit" value="Go">
     </form>
@@ -177,3 +165,4 @@
 
 </body>
 </html>
+
